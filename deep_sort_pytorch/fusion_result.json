@@ -1,0 +1,84 @@
+[{
+    "graph_fusion": {
+        "AABiasaddConvFusion": {
+            "effect_times": "0",
+            "match_times": "400"
+        },
+        "AvgPoolV2FusionPass": {
+            "effect_times": "50",
+            "match_times": "50"
+        },
+        "ConvFormatRefreshFusionPass": {
+            "effect_times": "0",
+            "match_times": "1000"
+        },
+        "ConvToFullyConnectionFusionPass": {
+            "effect_times": "0",
+            "match_times": "1000"
+        },
+        "ConvWeightCompressFusionPass": {
+            "effect_times": "0",
+            "match_times": "1000"
+        },
+        "FIXPIPEAPREQUANTFUSIONPASS": {
+            "effect_times": "0",
+            "match_times": "1000"
+        },
+        "FIXPIPEFUSIONPASS": {
+            "effect_times": "850",
+            "match_times": "1000"
+        },
+        "MapIndexFusionPass": {
+            "effect_times": "1",
+            "match_times": "1"
+        },
+        "Padv3dAvgpoolFusionPass": {
+            "effect_times": "50",
+            "match_times": "50"
+        },
+        "RealDiv2MulsFusionPass": {
+            "effect_times": "0",
+            "match_times": "50"
+        },
+        "RefreshInt64ToInt32FusionPass": {
+            "effect_times": "51",
+            "match_times": "51"
+        },
+        "RemoveCastFusionPass": {
+            "effect_times": "0",
+            "match_times": "2100"
+        },
+        "SameInputConv2dPass": {
+            "effect_times": "0",
+            "match_times": "400"
+        },
+        "StrideHoistingPass": {
+            "effect_times": "0",
+            "match_times": "450"
+        },
+        "TBEConvAddFusion": {
+            "effect_times": "400",
+            "match_times": "400"
+        },
+        "TransdataCastFusionPass": {
+            "effect_times": "0",
+            "match_times": "120"
+        },
+        "TransdataFz2FzgFusionPass": {
+            "effect_times": "0",
+            "match_times": "120"
+        },
+        "TransdataFzg2FzFusionPass": {
+            "effect_times": "0",
+            "match_times": "120"
+        }
+    },
+    "session_and_graph_id": "0_0",
+    "ub_fusion": {
+        "TbeConvFixPipeFusionPass": {
+            "effect_times": "850",
+            "match_times": "850",
+            "repository_hit_times": "0"
+        }
+    }
+}]
